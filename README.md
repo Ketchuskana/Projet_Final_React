@@ -15,12 +15,12 @@ RAVE est une application React Native qui permet aux utilisateurs d'enregistrer 
 _ App.js : Point d'entrée principal de l'application. Configure la navigation entre les vues Home, Record et RAVE. Intègre Redux pour la gestion de l'état global.
 _ store.js : Configuration de Redux et Redux Persist pour la gestion de l'état global et la persistance.
 
-_ screens/ :
+## screens :
   _HomeScreen.js : Vue Home. Permet à l'utilisateur de se connecter au serveur Flask en entrant l'adresse IP et le port.
   _RecordScreen.js : Vue Record. Permet à l'utilisateur d'enregistrer des clips audio, de les lire, de les sauvegarder et de les afficher dans une liste.
   _RaveScreen.js : Vue RAVE. Permet à l'utilisateur de sélectionner un clip audio, de l'envoyer au serveur Flask pour transformation, de télécharger le fichier       audio transformé et de l'écouter.
   
-_ Utilisation
+## Utilisation
 -Vue Home
 Entrez l'adresse IP du serveur Flask.
 Entrez le port du serveur Flask.
